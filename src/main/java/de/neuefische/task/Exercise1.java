@@ -1,9 +1,17 @@
+package de.neuefische.task;
+
 public class Exercise1 {
 
     public static void main(String[] args) {
         printSum(add(7, 17));
         contain("wort");
     }
+
+
+
+
+
+
 
     private static int add(int number1, int number2) {
         return number1 + number2;
@@ -16,6 +24,7 @@ public class Exercise1 {
 
     public static void contain(String word) {
 
+        /*
         word = "Wie lang ist die Zeichenkette";
 
         System.out.println(word);
@@ -23,5 +32,5 @@ public class Exercise1 {
         System.out.println("Beinhaltet die Zeichenkette das Wort fancy " + word.contains("fancy"));
 
     }
-
+        */
 }
