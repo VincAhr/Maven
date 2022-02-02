@@ -1,33 +1,31 @@
 package de.neuefische.task;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class Exercise1Test {
 
-    NumberCheckerTest {
 
-        @Test
-        void shouldBeDividableByTwo() {
-    \\given
-            var number = 4;
-    \\when
-            boolean result = NumberChecker.check(number);
-    \\then
-            Assertions.assertTrue(result);
-        }
+    @Test
+    void shouldBePositive() {
 
-[… andere Fälle …]
 
-    }
+        //given
+        int number1 = 2;
+        int number2 = 4;
 
-    Für den Code:
+        //when
+        int result = Exercise1.add(number1, number2);
 
-    public class NumberChecker {
 
-        public static boolean check(double number) {
-            return number%2 == 0;
-        }
+        // then
+        Assertions.assertEquals(5, result);
+
+
     }
 
 
 }
+
