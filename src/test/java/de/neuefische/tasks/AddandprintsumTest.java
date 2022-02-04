@@ -1,11 +1,11 @@
-package de.neuefische.task;
+package de.neuefische.tasks;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Exercise1Test {
+class AddandprintsumTest {
 
 
     @Test
@@ -17,15 +17,13 @@ class Exercise1Test {
         int number2 = 4;
 
         //when
-        int result = Exercise1.add(number1, number2);
+        int result = Addandprintsum.add(number1, number2);
 
 
         // then
-        Assertions.assertEquals(5, result);
+        Assertions.assertEquals(6, result);
 
 
     }
 
-
 }
-
