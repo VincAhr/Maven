@@ -1,5 +1,6 @@
 package de.neuefische.tasks;
 
+import de.neuefische.tasks.week1.Arraytest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

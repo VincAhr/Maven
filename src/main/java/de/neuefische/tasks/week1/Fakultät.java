@@ -1,4 +1,4 @@
-package de.neuefische.tasks;
+package de.neuefische.tasks.week1;
 
 public class Fakultät {
 

@@ -1,9 +1,8 @@
 package de.neuefische.tasks;
 
+import de.neuefische.tasks.week1.Addandprintsum;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class AddandprintsumTest {
 

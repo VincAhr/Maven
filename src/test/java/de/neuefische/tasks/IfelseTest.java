@@ -1,6 +1,6 @@
 package de.neuefische.task;
 
-import de.neuefische.tasks.Ifelse;
+import de.neuefische.tasks.week1.Ifelse;
 import org.junit.jupiter.api.Test;
 
 import org.junit.jupiter.api.Assertions;
