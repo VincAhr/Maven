@@ -1,4 +1,4 @@
-package de.neuefische.tasks;
+package de.neuefische.tasks.week2.vererbung;
 
 import de.neuefische.tasks.week2.interfaces.InformatikStudent;
 import org.junit.jupiter.api.Test;

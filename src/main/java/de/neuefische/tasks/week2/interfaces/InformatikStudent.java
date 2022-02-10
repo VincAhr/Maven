@@ -4,7 +4,6 @@ import java.util.Objects;
 
 public class InformatikStudent implements Student {
 
-
     private String firstName;
     private String lastName;
     private int semester;
@@ -19,7 +18,8 @@ public class InformatikStudent implements Student {
         this.id = id;
     }
 
-    InformatikStudent(String firstName, String lastName) {
+
+    InformatikStudent(String firstName, String lastName) {   //
         this.firstName = firstName;
         this.lastName = lastName;
         semester = 1;

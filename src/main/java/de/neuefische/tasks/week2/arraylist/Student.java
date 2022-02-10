@@ -1,4 +1,4 @@
-package de.neuefische.tasks.week2.uebung;
+package de.neuefische.tasks.week2.arraylist;
 
 public class Student {
 

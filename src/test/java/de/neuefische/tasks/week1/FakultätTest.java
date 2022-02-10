@@ -1,4 +1,4 @@
-package de.neuefische.tasks;
+package de.neuefische.tasks.week1;
 import de.neuefische.tasks.week1.Fakultät;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;

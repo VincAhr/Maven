@@ -1,17 +1,13 @@
-package de.neuefische.tasks;
+package de.neuefische.tasks.week2.interfaces;
 
-import de.neuefische.tasks.week2.interfaces.InformatikStudent;
-import de.neuefische.tasks.week2.interfaces.StudentDB;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class StudentDBTest {
 
 
 
         @Test
-        void testTest(){
+        void Arraytest(){
 
                 InformatikStudent s1 = new InformatikStudent("Vincent", "Ahrens", 5, 1);
                 InformatikStudent[] students = {s1};
