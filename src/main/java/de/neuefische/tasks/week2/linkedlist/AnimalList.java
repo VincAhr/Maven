@@ -4,7 +4,7 @@ public class AnimalList {
 
     private AnimalListItem head;
 
-
+    //TODO methode selbst nochmal schreiben
     public void add(Animal value) {
 
        AnimalListItem list = new AnimalListItem(value);
@@ -19,6 +19,7 @@ public class AnimalList {
         }
     }
 
+    //TODO methode selbst nochmal schreiben
     public void remove(Animal animal) {
         var prev = (AnimalListItem) null;
         for (AnimalListItem current = head; current != null; current = current.getNext()) {

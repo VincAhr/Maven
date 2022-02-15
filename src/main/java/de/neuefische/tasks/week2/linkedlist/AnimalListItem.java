@@ -17,10 +17,10 @@ public class AnimalListItem {
         this.value = value;
     }
 
-    // toString methode ist rekursiv, weil next am Ende der Funktion nochmals aufgerufen wird bist letztes Element der LinkedList durch ist
+    // toString methode ist rekursiv, weil next am Ende der Funktion nochmals aufgerufen wird
     public String toString() {
         var result = value.toString();
-        if (next != null) {
+        if (next != null) {                         //Methode läuft solange durch, bis next auf null zeigt
             result += " -> " + next;
         }
         return result;
